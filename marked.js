@@ -2402,10 +2402,10 @@
                 }
 
                 itemBody += this.parse(item.tokens, loose);
-                body += this.renderer.listitem(itemBody, task, checked, token, item);
+                body += this.renderer.listitem(itemBody, task, checked);
               }
 
-              out += this.renderer.list(body, ordered, start, token);
+              out += this.renderer.list(body, ordered, start);
               continue;
             }
 
